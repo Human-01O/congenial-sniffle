@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Trường THPT Số 1 Nguyễn Huệ</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(#b3d9ff, #e6f2ff);
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    background: #fff;
+}
+
+/* HEADER */
+.header {
+    background: linear-gradient(to right, #1e73be, #3fa9f5);
+    padding: 15px 0;
+}
+
+.header-content {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.title h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.title h1 {
+    margin: 5px 0 0;
+    font-size: 26px;
+}
+
+/* MENU */
+.menu {
+    background: #0d4d8b;
+    padding: 10px;
+}
+
+.menu a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+/* LAYOUT */
+.main {
+    display: flex;
+}
+
+.left, .right {
+    width: 25%;
+    padding: 10px;
+}
+
+.center {
+    width: 50%;
+    padding: 10px;
+}
+
+.box {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.box-title {
+    background: #0d4d8b;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.box ul li {
+    padding: 8px;
+    border-bottom: 1px dotted #ccc;
+}
+
+/* NEWS */
+.news {
+    display: flex;
+}
+
+.news img {
+    width: 100%;
+}
+
+.news-main {
+    width: 70%;
+}
+
+.news-list {
+    width: 30%;
+    padding-left: 10px;
+}
+
+.news-list div {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* STUDENT */
+.student-intro {
+    padding: 15px;
+}
+
+.student-card {
+    display: flex;
+    gap: 15px;
+}
+
+.student-card img {
+    width: 120px;
+    height: 150px;
+    border-radius: 8px;
+    border: 2px solid #0d4d8b;
+}
+
+/* RIGHT */
+.btn {
+    display: block;
+    background: #1e73be;
+    color: white;
+    padding: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.right img {
+    width: 100%;
+}
+
+/* FOOTER */
+.footer {
+    background: linear-gradient(to right, #1e73be, #3fa9f5);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- HEADER -->
+<div class="header">
+    <div class="header-content">
+        <img src="a1.jpg">
+        <div class="title">
+            <h2>SỞ GIÁO DỤC VÀ ĐÀO TẠO TỈNH GIA LAI</h2>
+            <h1>TRƯỜNG THPT SỐ 1 NGUYỄN HUỆ</h1>
+        </div>
+    </div>
+</div>
+
+<!-- MENU -->
+<div class="menu">
+    <a href="#">Trang chủ</a>
+    <a href="#">Giới thiệu</a>
+    <a href="#">Tin tức</a>
+    <a href="#">Tài nguyên</a>
+    <a href="#">Liên hệ</a>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+<!-- LEFT -->
+<div class="left">
+    <div class="box">
+        <div class="box-title">Giới thiệu</div>
+        <ul>
+            <li>Ban Giám hiệu</li>
+            <li>Chi bộ Đảng</li>
+<li>Đoàn Thanh niên</li>
+            <li>Tổ Văn phòng</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <div class="box-title">Tin tức sự kiện</div>
+        <ul>
+            <li>Thời khóa biểu</li>
+            <li>Thi - Kiểm tra</li>
+            <li>Tuyển sinh</li>
+        </ul>
+    </div>
+</div>
+
+<!-- CENTER -->
+<div class="center">
+
+<div class="box">
+    <div class="box-title">Tin mới nhất</div>
+    <div class="news">
+        <div class="news-main">
+            
+            <div style="background:#1e4f86;color:white;padding:10px;">
+                <b>LỊCH CÔNG TÁC TUẦN 28</b><br>
+                Ngày đăng: 23/03/2026
+            </div>
+        </div>
+
+        <div class="news-list">
+            <div>Lịch công tác tuần 27</div>
+            <div>Lịch công tác tuần 26</div>
+            <div>Kế hoạch hội trại</div>
+            <div>Lịch công tác tuần 25</div>
+        </div>
+    </div>
+</div>
+
+<!-- GIỚI THIỆU HỌC SINH -->
+<div class="box">
+    <div class="box-title">Giới thiệu học sinh</div>
+    <div class="student-intro">
+
+        <div class="student-card">
+            <img src="a2.jpg">
+
+            <div>
+                <p><b>Họ và tên:</b> Nguyễn Lê Gia Phát</p>
+                <p><b>Lớp:</b> 12A6</p>
+
+                <p><b>Thành tích:</b><br>
+                - Lớp trưởng xuất sắc đứng thứ 2 toàn khối 2023-2024 <br>
+                - Lớp trưởng xuất sắc đứng thứ 3 toàn khối 2025-2025 <br>
+                - Tích cực hoạt động Đoàn<br>
+                - Học sinh tiêu biểu của trường
+                </p>
+
+                <p><b>Châm ngôn:</b><br>
+                <i>"All roads lead to Rome"</i>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</div>
+
+<!-- RIGHT -->
+<div class="right">
+    <div class="box">
+        <div class="box-title">Chính phủ điện tử</div>
+        <a class="btn" href="#">Quản lý văn bản</a>
+        <a class="btn" href="#">Email công vụ</a>
+        <a class="btn" href="#">Dịch vụ công</a>
+        <a class="btn" href="#">Trường học</a>
+    </div>
+
+    <img src="https://via.placeholder.com/250x300">
+</div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p><b>Đơn vị chủ quản: Trường THPT Số 1 Nguyễn Huệ</b></p>
+    <p>📍 Địa chỉ: 87 Phan Đình Phùng - Xã Tây Sơn - Tỉnh Gia Lai</p>
+    <p>📞 Điện thoại: 0563880581</p>
+    <p>📧 Email: gl-thptso1nguyenhue@edu.viettel.vn</p>
+    <p>Thiết kế bởi và phát triển bởi EduPortal</p>
+</div>
+
+</div>
+
+</body>
+</html>
